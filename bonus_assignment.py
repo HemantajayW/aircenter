@@ -1,9 +1,9 @@
 
 file = open("C:/Users/heman_6e6o1cr/Downloads/sample-2mb-text-file.txt", "r+")
-frequent_word = ""
-frequency = 0
+
+
 lines = file.readlines()
-words = []
+
 dictionary = {}
 
 
@@ -23,7 +23,7 @@ for line in lines:
 
 
 print(dictionary[max(dictionary,key=dictionary.get)])
-print("Frequency: ", str(frequency))
+
 x=max(dictionary,key=dictionary.get)
 y="loopr"
 
